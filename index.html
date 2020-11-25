@@ -1,68 +1,99 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		 <meta charset="utf-8" />
-		<link rel="stylesheet" type="text/css" href="Semantic-UI-CSS-master/semantic.min.css">
-		<script
-  		src="https://code.jquery.com/jquery-3.1.1.min.js"
-  		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  		crossorigin="anonymous"></script>
-		<script src="Semantic-UI-CSS-master.js"></script>
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="Semantic-UI-CSS-master/semantic.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="Semantic-UI-CSS-master.js"></script>
 
-		<style type="text/css">
+    <style type="text/css">
+      img.header_image {
+        margin-top: 30px;
+      }
 
-  
-  img.header_image {
-    margin-top: 30px;
-  }
+      p.intro {
+        margin-top: 50px;
+        margin-bottom: 40px;
+      }
 
-  p.intro{
-  	margin-top:50px;
-  	margin-bottom: 40px;
-  }
+      div.main_component {
+        padding-bottom: 50px;
+      }
 
-  div.main_component{
-  	padding-bottom: 50px;
-  }
+      h4.contact {
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        margin-top: -10px;
+      }
 
-  h4.contact{
-  	padding-bottom: 0px;
-  	margin-bottom: 0px;
-  	padding-top: 0px;
-  	margin-top: -10px;
-  }
+      .ui.items > .item > .content > .description {
+        font-size: 0.8em;
+      }
 
-  .ui.items>.item>.content>.description {
-  	font-size: 0.8em;
-  }
+      .ui.text.container {
+        max-width: 800px;
+      }
 
-  .ui.text.container{
-	  max-width: 800px;
-  }
+      .ui.items > .item .meta {
+        font-size: 0.8em;
+      }
 
-  .ui.items>.item .meta {
-	font-size: 0.8em;
-}
-
-/* .publication{
+      /* .publication{
 	max-height: 100px;
 } */
+    </style>
+  </head>
+  <body>
+    <div class="ui padded text container main_component">
+      <img
+        class="ui centered small rounded image header_image"
+        src="img/mjl.png"
+      />
+      <h1 class="ui centered header">
+        Maria Jesus Lobo
+        <div class="sub header">
+          <a
+            href="mailto:&#109;&#97;&#114;&#105;&#97;&#45;&#106;&#101;&#115;&#117;&#115;&#46;&#108;&#111;&#98;&#111;&#64;&#105;&#103;&#110;&#46;&#102;&#114;"
+            class="courrier"
+            >&#109;&#97;&#114;&#105;&#97;&#45;&#106;&#101;&#115;&#117;&#115;&#46;&#108;&#111;&#98;&#111;&#64;&#105;&#103;&#110;&#46;&#102;&#114;</a
+          >
+        </div>
+      </h1>
 
+      <p class="intro">
+        I am a research scientist (CRCN développement durable) at
+        <a href="https://umrlastig.github.io/geovis/">GeoVis</a> team at
+        <a href="www.ign.fr"> IGN </a>. I am currently working on augmented
+        reality for urban visualization. Before, I was a postdoc at
+        <a href="http://devi.recherche.enac.fr/?page_id=14&lang=fr"
+          >Devi Team
+        </a>
+        working with
+        <a href="http://recherche.enac.fr/~hurter/">Christophe Hurter</a>, at
+        ENAC where I studied new visualization and interaction techniques for
+        spatial data, in particular LIDAR data and flow data. I did my PhD in
+        the
+        <a href="http://ilda.saclay.inria.fr">
+          ILDA (Interacting with Large DAta)</a
+        >
+        team under the supervision of
+        <a href="https://www.lri.fr/~appert/">Caroline Appert</a> and
+        <a href="http://pages.saclay.inria.fr/emmanuel.pietriga/">
+          Emmanuel Pietriga</a
+        >. My thesis studied interactive transitions for map applications, in
+        order to combine different maps and data layers into one representation.
+      </p>
 
-  </style>
-
-	</head>
-<body>
-	<div class="ui padded text container main_component">
-		<img class="ui centered small rounded image header_image" src="img/mjl.png">
-  		<h1 class="ui centered header">Maria Jesus Lobo
-  			<div class="sub header"><a href="mailto:&#109;&#97;&#114;&#105;&#97;&#45;&#106;&#101;&#115;&#117;&#115;&#46;&#108;&#111;&#98;&#111;&#64;&#105;&#103;&#110;&#46;&#102;&#114;" class="courrier">&#109;&#97;&#114;&#105;&#97;&#45;&#106;&#101;&#115;&#117;&#115;&#46;&#108;&#111;&#98;&#111;&#64;&#105;&#103;&#110;&#46;&#102;&#114;</a></div>
-  		</h1>
-
-  		<p class="intro"> I am a research scientist (CRCN développement durable) at <a href="https://umrlastig.github.io/geovis/">GeoVis</a> team at <a href="www.ign.fr"> IGN </a>. I am currently working on augmented reality for urban visualization. Before, I was a postdoc at <a href="http://devi.recherche.enac.fr/?page_id=14&lang=fr">Devi Team </a> working with <a href="http://recherche.enac.fr/~hurter/">Christophe Hurter</a>, at ENAC where I studied new visualization and interaction techniques for spatial data, in particular LIDAR data and flow data. I did my PhD in the <a href="http://ilda.saclay.inria.fr"> ILDA (Interacting with Large DAta)</a> team under the supervision of <a href="https://www.lri.fr/~appert/">Caroline Appert</a> and <a href="http://pages.saclay.inria.fr/emmanuel.pietriga/"> Emmanuel Pietriga</a>. My thesis studied interactive transitions for map applications, in order to combine different maps and data layers into one representation. </p>
-  		
-
-		<!-- <div class="ui feed">
+      <!-- <div class="ui feed">
 			<div class="event">
 					<div class="content">
 							<div class="summary">
@@ -78,199 +109,412 @@
 						  </div>
 			</div>
 		</div> -->
-  		<h2 class="ui dividing header"> Publications </h2>
-  		<h3 class="ui header"> Conferences and Journals </h3>
-		<div class="ui relaxed items">
-				<div class="item publication">
-						<div class= "ui small image">
-						  <!-- <img class="ui middle aligned tiny image" src="img/animatedtextures.png"> -->
-						  <img class="ui middle aligned" src="img/animatedtextures.png">
-					  </div>
-				  <div class="content">
-					  <h4 class="ui header"> Data multiplexing through animated texture orientation and color </h4>
-						<div class="meta">María-Jesús Lobo and Christophe Hurter </div>
-						<div class="description">VISIGRAPP 2019 - Proceedings of the 14th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications pp.289-296
-						<!-- </div> -->
-						<!-- <div class="description"> -->
-							<a href="https://hal-enac.archives-ouvertes.fr/hal-02120615/document"><i class="file pdf icon"></i></a><a href="https://mjlobo.github.io/animatedtextures/"><i class="plus icon"></i></a></div>
-				  </div>
-				</div>
-			<div class="item publication">
-		  		<div class= "ui small image">
-					<!-- <img class="ui middle aligned tiny image" src="img/aral_new2.png"> -->
-					<img class="ui middle aligned" src="img/aral_new2.png">
-		    	</div>
-		    <div class="content">
-		    	<h4 class="ui header"> Animation Plans for Before-and-After Satellite Images </h4>
-		      	<div class="meta">Maria-Jesus Lobo, Caroline Appert and Emmanuel Pietriga. </div>
-		      	<div class="description">IEEE Transactions on Visualization and Computer Graphics, 25(2), 1347-1360, 2019
-		      	<!-- </div>
+      <h2 class="ui dividing header">Publications</h2>
+      <h3 class="ui header">Conferences and Journals</h3>
+      <div class="ui items">
+        <div class="item publication">
+          <div class="ui small image">
+            <!-- <img class="ui middle aligned tiny image" src="img/animatedtextures.png"> -->
+            <img class="ui fluid image" src="img/modalflow.jpg" />
+          </div>
+          <div class="content">
+            <h4 class="ui header">
+              Modalflow: Cross-Origin Flow Data Visualization for Urban Mobility
+            </h4>
+            <div class="meta">
+              Ignacio Perez Messina, Eduardo Graells, María Jesús Lobo,
+              Christophe Hurter
+            </div>
+            <div class="description">
+              Algorithms 2020, 13, 298
+              <!-- </div> -->
+              <!-- <div class="description"> -->
+              <a href="https://www.mdpi.com/1999-4893/13/11/298"
+                ><i class="file pdf icon"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="item publication">
+          <div class="ui small image">
+            <!-- <img class="ui middle aligned tiny image" src="img/animatedtextures.png"> -->
+            <img class="ui middle aligned" src="img/flexer.png" />
+          </div>
+          <div class="content">
+            <h4 class="ui header">
+              Flex-ER: A Platform to Evaluate Interaction Techniques for
+              Immersive Visualizations
+            </h4>
+            <div class="meta">
+              María-Jesús Lobo, Christophe Hurter, Pourang Irani
+            </div>
+            <div class="description">
+              Proceedings of the ACM on Human-Computer Interaction 4 (ISS),
+              1-20, 2020
+              <!-- </div> -->
+              <!-- <div class="description"> -->
+              <a href="https://dl.acm.org/doi/pdf/10.1145/3427323"
+                ><i class="file pdf icon"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="item publication">
+          <div class="ui small image">
+            <!-- <img class="ui middle aligned tiny image" src="img/animatedtextures.png"> -->
+            <img class="ui middle aligned" src="img/feature.png" />
+          </div>
+          <div class="content">
+            <h4 class="ui header">
+              Feature Driven Combination of Animated Vector Field Visualizations
+            </h4>
+            <div class="meta">
+              María-Jesús Lobo, Alexandru Telea, Christophe Hurter
+            </div>
+            <div class="description">
+              In Computer Graphics Forum (Vol. 39, No. 3, pp. 429-441), 2020.
+              <!-- </div> -->
+              <!-- <div class="description"> -->
+              <a
+                href="https://hal-enac.archives-ouvertes.fr/hal-02907118/file/authorVersion.pdf"
+                ><i class="file pdf icon"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="item publication">
+          <div class="ui small image">
+            <!-- <img class="ui middle aligned tiny image" src="img/animatedtextures.png"> -->
+            <img class="ui middle aligned" src="img/isprs.jpg" />
+          </div>
+          <div class="content">
+            <h4 class="ui header">
+              Opportunities and challenges for Augmented Reality situated
+              geographical visualization
+            </h4>
+            <div class="meta">
+              María-Jesús Lobo, Sidonie Christophe
+            </div>
+            <div class="description">
+              ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial
+              Information Sciences, 4, 163-170, 2020.
+              <!-- </div> -->
+              <!-- <div class="description"> -->
+              <a href="https://hal.archives-ouvertes.fr/hal-02878352/document"
+                ><i class="file pdf icon"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="item publication">
+          <div class="ui small image">
+            <!-- <img class="ui middle aligned tiny image" src="img/animatedtextures.png"> -->
+            <img class="ui middle aligned" src="img/shapebrushw.png" />
+          </div>
+          <div class="content">
+            <h4 class="ui header">
+              Interactive Shape Based Brushing Technique for Trail Sets
+            </h4>
+            <div class="meta">
+              Almoctar Hassoumi, María-Jesús Lobo, Gabriel Jarry, Vsevolod
+              Peysakhovich and Christophe Hurter
+            </div>
+            <div class="description">
+              GI '20: Proceedings of Graphics Interface, 13 pages, CHCCS/SCDHM,
+              2020
+              <!-- </div> -->
+              <!-- <div class="description"> -->
+              <a href="https://openreview.net/forum?id=yaeJLwvTr"
+                ><i class="file pdf icon"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="item publication">
+          <div class="ui small image">
+            <!-- <img class="ui middle aligned tiny image" src="img/animatedtextures.png"> -->
+            <img class="ui middle aligned" src="img/animatedtextures.png" />
+          </div>
+          <div class="content">
+            <h4 class="ui header">
+              Data multiplexing through animated texture orientation and color
+            </h4>
+            <div class="meta">María-Jesús Lobo and Christophe Hurter</div>
+            <div class="description">
+              VISIGRAPP 2019 - Proceedings of the 14th International Joint
+              Conference on Computer Vision, Imaging and Computer Graphics
+              Theory and Applications pp.289-296
+              <!-- </div> -->
+              <!-- <div class="description"> -->
+              <a
+                href="https://hal-enac.archives-ouvertes.fr/hal-02120615/document"
+                ><i class="file pdf icon"></i></a
+              ><a href="https://mjlobo.github.io/animatedtextures/"
+                ><i class="plus icon"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="item publication">
+          <div class="ui small image">
+            <!-- <img class="ui middle aligned tiny image" src="img/aral_new2.png"> -->
+            <img class="ui middle aligned" src="img/aral_new2.png" />
+          </div>
+          <div class="content">
+            <h4 class="ui header">
+              Animation Plans for Before-and-After Satellite Images
+            </h4>
+            <div class="meta">
+              Maria-Jesus Lobo, Caroline Appert and Emmanuel Pietriga.
+            </div>
+            <div class="description">
+              IEEE Transactions on Visualization and Computer Graphics, 25(2),
+              1347-1360, 2019
+              <!-- </div>
 		      	<div class="description"> -->
-		      		<a href="https://hal.inria.fr/hal-01773882/document"><i class="file pdf icon"></i></a><a href="http://ilda.saclay.inria.fr/mapmuxing/baia/baia_TVCG_2018.mp4"><i class="video icon"></i></a><a href="http://ilda.saclay.inria.fr/mapmuxing/baia/index.html"><i class="plus icon"></i></a></div>
-		    </div>
-		  </div>
+              <a href="https://hal.inria.fr/hal-01773882/document"
+                ><i class="file pdf icon"></i></a
+              ><a
+                href="http://ilda.saclay.inria.fr/mapmuxing/baia/baia_TVCG_2018.mp4"
+                ><i class="video icon"></i></a
+              ><a href="http://ilda.saclay.inria.fr/mapmuxing/baia/index.html"
+                ><i class="plus icon"></i
+              ></a>
+            </div>
+          </div>
+        </div>
 
-		  <div class="item publication">
-		  		<div class= "ui small image">
-		    		<img class="ui middle aligned" src="img/mapmosaic.png">
-		    	</div>
-		    <div class="content">
-		    	<h4 class="ui header"> MapMosaic: Dynamic Layer Compositing for Interactive Geovisualization </h4>
-		      	<div class="meta">Maria-Jesus Lobo, Caroline Appert and Emmanuel Pietriga. </div>
-		      	<div class="description">International Journal of Geographical Information Science (IJGIS), 31(9), 1818-1845, 2017.
-		      	<!-- </div>
+        <div class="item publication">
+          <div class="ui small image">
+            <img class="ui middle aligned" src="img/mapmosaic.png" />
+          </div>
+          <div class="content">
+            <h4 class="ui header">
+              MapMosaic: Dynamic Layer Compositing for Interactive
+              Geovisualization
+            </h4>
+            <div class="meta">
+              Maria-Jesus Lobo, Caroline Appert and Emmanuel Pietriga.
+            </div>
+            <div class="description">
+              International Journal of Geographical Information Science (IJGIS),
+              31(9), 1818-1845, 2017.
+              <!-- </div>
 		      	<div class="description"> -->
-					  <a href="https://hal.inria.fr/hal-01562084/document"><i class="file pdf icon"></i></a><a href="https://hal.inria.fr/hal-01562084/file/mapmosaic_IJGIS2017.mov"><i class="video icon"></i></a><a><i class="plus icon"></i></a></div>
-		    </div>
-		</div>
+              <a href="https://hal.inria.fr/hal-01562084/document"
+                ><i class="file pdf icon"></i></a
+              ><a
+                href="https://hal.inria.fr/hal-01562084/file/mapmosaic_IJGIS2017.mov"
+                ><i class="video icon"></i></a
+              ><a><i class="plus icon"></i></a>
+            </div>
+          </div>
+        </div>
 
-		  <div class="item publication">
-		  		<div class= "ui small image">
-		    		<img class="ui middle aligned" src="img/reciprocal.png">
-		    	</div>
-		    <div class="content">
-		    	<h4 class="ui header"> Reciprocal Drag-and-Drop </h4>
-		      	<div class="meta">Caroline Appert, Olivier Chapuis, Emmanuel Pietriga & Maria-Jesus Lobo </div>
-		      	<div class="description">ACM Transactions on Computer-Human Interaction (ToCHI), 22(6), Article No. 29, 36 pages, 2015.
-		      	<!-- </div>
+        <div class="item publication">
+          <div class="ui small image">
+            <img class="ui middle aligned" src="img/reciprocal.png" />
+          </div>
+          <div class="content">
+            <h4 class="ui header">Reciprocal Drag-and-Drop</h4>
+            <div class="meta">
+              Caroline Appert, Olivier Chapuis, Emmanuel Pietriga & Maria-Jesus
+              Lobo
+            </div>
+            <div class="description">
+              ACM Transactions on Computer-Human Interaction (ToCHI), 22(6),
+              Article No. 29, 36 pages, 2015.
+              <!-- </div>
 		      	<div class="description"> -->
-					  <a href="https://dl.acm.org/authorize?N05393"><i class="file pdf icon"></i></a><a href="https://www.lri.fr/~chapuis/publications/ToCHI15-dnd-1.mov"><i class="video icon"></i></a>
-		    </div>
-		  </div>
-		</div>
+              <a href="https://dl.acm.org/authorize?N05393"
+                ><i class="file pdf icon"></i></a
+              ><a
+                href="https://www.lri.fr/~chapuis/publications/ToCHI15-dnd-1.mov"
+                ><i class="video icon"></i
+              ></a>
+            </div>
+          </div>
+        </div>
 
-		  <div class="item publication">
-		  	<div class= "ui small image">
-		    	<img class="ui middle aligned" src="img/mapcomp3.png">
-		    </div>
-		    <div class="content">
-		    	<h4 class="ui header"> An Evaluation of Interactive Map Comparison Techniques</h4>
-		      	<div class="meta">Maria-Jesus Lobo, Emmanuel Pietriga and Caroline Appert. </div>
-		      	<div class="description">In CHI '15: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, 3573-3582, ACM, 2015. Honorable mention Award.
+        <div class="item publication">
+          <div class="ui small image">
+            <img class="ui middle aligned" src="img/mapcomp3.png" />
+          </div>
+          <div class="content">
+            <h4 class="ui header">
+              An Evaluation of Interactive Map Comparison Techniques
+            </h4>
+            <div class="meta">
+              Maria-Jesus Lobo, Emmanuel Pietriga and Caroline Appert.
+            </div>
+            <div class="description">
+              In CHI '15: Proceedings of the SIGCHI Conference on Human Factors
+              in Computing Systems, 3573-3582, ACM, 2015. Honorable mention
+              Award.
 
-				  <!-- </div>
+              <!-- </div>
 		      	<div class="description"> -->
-					  <a href="https://hal.inria.fr/hal-01144163/document"><i class="file pdf icon"></i></a><a hef="http://pages.saclay.inria.fr/emmanuel.pietriga/2015/04/mapcomp-CHI2015.m4v"><i class="video icon"></i></a>
-		    </div>
-		  </div>
-		</div>
-	</div>
-	<div class="ui hidden divider"></div>
-		<div class="ui unstackable items">
-		  <h3 class="ui header"> PhD Thesis </h3>
-		  	<div class="item">
-		  	<div class= "ui small image">
-		    	<img class="ui middle aligned" src="img/designspace.png">
-		    </div>
-		    <div class="content publication">
-		    	<h4 class="ui header"> Interactive Transitions for Map Applications </h4>
-		      	<div class="meta"> Maria-Jesus Lobo</div>
-		      	<div class="description">Human-Computer Interaction [cs.HC]. Université Paris-Saclay, 2017. English. 
+              <a href="https://hal.inria.fr/hal-01144163/document"
+                ><i class="file pdf icon"></i></a
+              ><a
+                hef="http://pages.saclay.inria.fr/emmanuel.pietriga/2015/04/mapcomp-CHI2015.m4v"
+                ><i class="video icon"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ui hidden divider"></div>
+      <div class="ui unstackable items">
+        <h3 class="ui header">PhD Thesis</h3>
+        <div class="item">
+          <div class="ui tiny image">
+            <img class="ui middle aligned" src="img/designspace.png" />
+          </div>
+          <div class="content publication">
+            <h4 class="ui header">
+              Interactive Transitions for Map Applications
+            </h4>
+            <div class="meta">Maria-Jesus Lobo</div>
+            <div class="description">
+              Human-Computer Interaction [cs.HC]. Université Paris-Saclay, 2017.
+              English.
 
-				  <!-- </div>
+              <!-- </div>
 				  <div class="description"> -->
-					  <a href="https://hal.inria.fr/tel-01698880v1"><i class="file pdf icon"></i></a></div>
-		  </div>
-		</div>
-	</div>
+              <a href="https://hal.inria.fr/tel-01698880v1"
+                ><i class="file pdf icon"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-	<div class="ui hidden divider"></div>
-		<div class="ui unstackable items">
-
-		  <h3 class="ui header"> Other </h3>
-		  <div class="item publication">
-				<!-- <div class= "image">
+      <div class="ui hidden divider"></div>
+      <div class="ui unstackable items">
+        <h3 class="ui header">Other</h3>
+        <div class="item publication">
+          <!-- <div class= "image">
 				  <img class="ui small image" src="img/designspace.png" >
 			  </div> -->
-		  <div class="content">
-			  <h4 class="ui header"> A LIDAR Interactive Data Visualization for Ground Aircraft Detection at Small Airports </h4>
-				<div class="meta">Maria-Jesus Lobo, Christophe Hurter and Mathieu Cousy </div>
-				<div class="description">Sesar Innovation Days 2019. <a href="https://www.sesarju.eu/sites/default/files/documents/sid/2019/papers/SIDs_2019_paper_47.pdf"><i class="file pdf icon"></i></a>
-				</div>
-				<!-- <div class="description"><a href="https://www.sesarju.eu/sites/default/files/documents/sid/2019/papers/SIDs_2019_paper_47.pdf"><i class="file pdf icon"></i></a></div> -->
-		  </div>
-		</div>
-		  <div class="item publication">
-				<!-- <div class= "image">
+          <div class="content">
+            <h4 class="ui header">
+              A LIDAR Interactive Data Visualization for Ground Aircraft
+              Detection at Small Airports
+            </h4>
+            <div class="meta">
+              Maria-Jesus Lobo, Christophe Hurter and Mathieu Cousy
+            </div>
+            <div class="description">
+              Sesar Innovation Days 2019.
+              <a
+                href="https://www.sesarju.eu/sites/default/files/documents/sid/2019/papers/SIDs_2019_paper_47.pdf"
+                ><i class="file pdf icon"></i
+              ></a>
+            </div>
+            <!-- <div class="description"><a href="https://www.sesarju.eu/sites/default/files/documents/sid/2019/papers/SIDs_2019_paper_47.pdf"><i class="file pdf icon"></i></a></div> -->
+          </div>
+        </div>
+        <div class="item publication">
+          <!-- <div class= "image">
 				  <img class="ui small image" src="img/designspace.png" >
 			  </div> -->
-		  <div class="content">
-			  <h4 class="ui header"> Are Planes Getting Better? </h4>
-				<div class="meta">Maria-Jesus Lobo and Christophe Hurter</div>
-				<div class="description">Shortlisted for the PacificVis Storytelling Video Contest 2019.
-						<a href="https://vimeo.com/showcase/5916034/video/330380325"><i class="video icon"></i></a>
-				</div>
-				<!-- <div class="description"><a href="https://vimeo.com/showcase/5916034/video/330380325"><i class="video icon"></i></a></div> -->
-		  </div>
-		</div>
-		  <div class="item publication">
-		  		<!-- <div class= "image">
+          <div class="content">
+            <h4 class="ui header">Are Planes Getting Better?</h4>
+            <div class="meta">Maria-Jesus Lobo and Christophe Hurter</div>
+            <div class="description">
+              Shortlisted for the PacificVis Storytelling Video Contest 2019.
+              <a href="https://vimeo.com/showcase/5916034/video/330380325"
+                ><i class="video icon"></i
+              ></a>
+            </div>
+            <!-- <div class="description"><a href="https://vimeo.com/showcase/5916034/video/330380325"><i class="video icon"></i></a></div> -->
+          </div>
+        </div>
+        <div class="item publication">
+          <!-- <div class= "image">
 		    		<img class="ui small image" src="img/designspace.png" >
 		    	</div> -->
-		    <div class="content">
-		    	<h4 class="ui header"> Interactive Transitions for Map Applications </h4>
-		      	<div class="meta">Maria-Jesus Lobo </div>
-		      	<div class="description">In IHM DC '16: Doctoral Consortium of the 28th Conference on Interaction Homme-Machine.
-		      	</div>
-		    </div>
-		  </div>
-		  <div class="item publication">
-		  		<!-- <div class= "image">
+          <div class="content">
+            <h4 class="ui header">
+              Interactive Transitions for Map Applications
+            </h4>
+            <div class="meta">Maria-Jesus Lobo</div>
+            <div class="description">
+              In IHM DC '16: Doctoral Consortium of the 28th Conference on
+              Interaction Homme-Machine.
+            </div>
+          </div>
+        </div>
+        <div class="item publication">
+          <!-- <div class= "image">
 		    		<img class="ui small image" src="img/bits.png" width="250px" height="130px">
 		    	</div> -->
-		    <div class="content">
-		    	<h4 class="ui header"> Visualización de Big Data en Alta Resolución a Disposición de la Comunidad Científica y la Industria Chilena </h4>
-		      	<div class="meta">María-Jesús Lobo, Emmanuel Pietriga and Claude Puech </div>
-		      	<div class="description">In Bits de Ciencia, 6 pages, Universidad de Chile, 2015.<a href="https://hal.inria.fr/hal-01134134/document"><i class="file pdf icon"></i></a>
-		      	</div>
-		      	<!-- <div class="description"><a href="https://hal.inria.fr/hal-01134134/document"><i class="file pdf icon"></i></a></div> -->
-		    </div>
-		  </div>
-		</div>
-		<h2 class="ui dividing header"> Reviewing </h2>
-		<div class="ui unstackable items">
-			<div class="item">
-				<div class="content">
-						<h4 class="ui header"> CHI </h4>
-						<div class="description">Full Papers: 2016, 2017, 2018, 2020</div>
-						<div class="description">Late Breaking Works: 2020</div>
-				</div>
-			</div>
-			<div class="item">
-					<div class="content">
-							<h4 class="ui header"> IHM </h4>
-							<div class="description">Full Papers: 2019</div>
-					</div>
-				</div>
-			<div class="item">
-				<div class="content">
-						<h4 class="ui header"> SciVis </h4>
-						<div class="description">Short Papers: 2018</div>
-				</div>
-			</div>
-			<div class="item">
-				<div class="content">
-						<h4 class="ui header"> GraphDrawing </h4>
-						<div class="description">Full Papers: 2018</div>
-				</div>
-			</div>
-			<div class="item">
-					<div class="content">
-							<h4 class="ui header"> UCAMI </h4>
-							<div class="description">Program Commitee Member: 2018, 2019</div>
-					</div>
-				</div>
-			<div class="item">
-					<div class="content">
-							<h4 class="ui header"> CityVis Workshop </h4>
-							<div class="description">Program Commitee Member: 2020</div>
-					</div>
-				</div>
-		</div>
-
-	</div>
-</body>
+          <div class="content">
+            <h4 class="ui header">
+              Visualización de Big Data en Alta Resolución a Disposición de la
+              Comunidad Científica y la Industria Chilena
+            </h4>
+            <div class="meta">
+              María-Jesús Lobo, Emmanuel Pietriga and Claude Puech
+            </div>
+            <div class="description">
+              In Bits de Ciencia, 6 pages, Universidad de Chile, 2015.<a
+                href="https://hal.inria.fr/hal-01134134/document"
+                ><i class="file pdf icon"></i
+              ></a>
+            </div>
+            <!-- <div class="description"><a href="https://hal.inria.fr/hal-01134134/document"><i class="file pdf icon"></i></a></div> -->
+          </div>
+        </div>
+      </div>
+      <h2 class="ui dividing header">Reviewing</h2>
+      <div class="ui unstackable items">
+        <div class="item">
+          <div class="content">
+            <h4 class="ui header">CHI</h4>
+            <div class="description">Full Papers: 2016, 2017, 2018, 2020</div>
+            <div class="description">Late Breaking Works: 2020</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="content">
+            <h4 class="ui header">IHM</h4>
+            <div class="description">Full Papers: 2019</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="content">
+            <h4 class="ui header">SciVis</h4>
+            <div class="description">Short Papers: 2018</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="content">
+            <h4 class="ui header">GraphDrawing</h4>
+            <div class="description">Full Papers: 2018</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="content">
+            <h4 class="ui header">ISS</h4>
+            <div class="description">Full Papers: 2020</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="content">
+            <h4 class="ui header">UCAMI</h4>
+            <div class="description">Program Commitee Member: 2018, 2019</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="content">
+            <h4 class="ui header">CityVis Workshop</h4>
+            <div class="description">Program Commitee Member: 2020</div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
-
-
-
